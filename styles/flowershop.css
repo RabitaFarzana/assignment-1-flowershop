@@ -1,0 +1,15 @@
+/* common shared styles */
+body {
+    font-family: 'Lato', sans-serif;
+
+}
+/* nav related styles */
+nav {
+    display:flex;
+}
+.nav-title{
+    color: #181818;
+    font-size: 40px;
+    font-weight: 800;
+
+}
