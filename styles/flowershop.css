@@ -21,6 +21,7 @@ nav {
     display:flex;
     justify-content: space-around;
     align-items: center;
+    background-color: #e9bbc5;
 }
 .nav-title{
     color: #181818;
@@ -43,4 +44,12 @@ nav a{
     text-decoration: none;
     color:#474747;
 
+}
+/* header related styles */
+.header{
+    margin: 0 200px;
+}
+.banner{
+    padding: 30px 30px 30px 150px;
+    display: flex;
 }
