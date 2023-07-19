@@ -5,39 +5,63 @@ body {
 }
 .btn-primary{
     background-color:#E55473;
-    border-radius: 5px;
+    border-radius: 8px;
     color: white;
     border: 0;
-    font-weight: 500;
-    padding: 6px;
+    font-weight: 600;
+    padding: 20px 35px;
 
 }
 
 .text-primary{
     color: #E55473;
 }
+.section-title{
+    color: #272727;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 800;
+
+
+}
+.section-description{
+    color: #272727;
+text-align: center;
+font-size: 12px;
+font-weight: 200;
+}
 /* nav related styles */
 nav {
     display:flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
     background-color: #e9bbc5;
+    width: 1425px;
+  
+
 }
 .nav-title{
     color: #181818;
     font-size: 25px;
     font-weight: 800;
+    margin-left: 50px;
 
 }
 
 nav > ul{
     display: flex;
     align-items: center;
+    
 }
 
 nav li {
     list-style: none;
-    margin-right: 50px;
+    margin-right: 20px;
+    align-items: center;
+
+}
+.nav-option{
+    
 }
 
 nav a{
@@ -47,16 +71,61 @@ nav a{
 }
 /* header related styles */
 .header{
-    margin: 0 200px;
-    border: 1px solid #000;
+margin: 0px;
 background: rgba(229, 84, 115, 0.10);
 box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+align-items: center;
 }
 .banner{
-    padding: 30px 30px 30px 150px;
+
     display: flex;
-    align-items: center;
+    align-items:center;
+    width: 70%;
+    margin: 0 auto;
+    justify-content: space-between;
+    padding: 30px 30px 0px 150px;
+
 }
-.banner .profile-pic{
-    weidth: 500px;
+
+
+.banner-greeting{
+    color: #272727;
+font-size: 60px;
+font-weight: 200px;
+width: 450px;
+margin-bottom: 0px;
+padding: 0px 150px;
+height: 400px;
+
 }
+.banner-description{
+    color: rgba(39, 39, 39, 0.60);
+font-size: 18px;
+font-weight: 400;
+margin-top: 0px;
+margin-bottom: 40px;
+padding: 0px 150px;
+}
+.image-container img{
+    width: 400px; 
+    height: 600px;
+    padding-bottom: 0px;
+
+    
+}
+.btn-primary{
+margin-bottom: 10px;
+margin-left: 150px;
+
+}
+/* main section styles */
+
+/* about section styles */
+.featured-flower{
+    padding: 100px;
+    text-align: center;
+    border-radius: 10px;
+    margin: 100px 400px;
+
+}
+
