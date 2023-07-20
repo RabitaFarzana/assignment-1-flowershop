@@ -125,11 +125,12 @@ nav a{
 /* main section styles */
 
 /* about section styles */
-.featured-flower{
+.container{
     /* padding: 100px; */
     text-align: center;
     border-radius: 10px;
     margin: 100px 400px;
+    font-size: 40px;
 }
 
 .section-description{
@@ -175,6 +176,50 @@ nav a{
     flex-shrink: 0;
 
 }
+.section-5{
+
+    background: rgba(229, 84, 115, 0.05); 
+    text-align: center;
+    display: flex;
+    align-items: center;
+    background-blend-mode: darken;
+
+}
+.part-1{
+    padding: 280px 50px 150px 450px;}
+
+.part-1-title{
+    margin-bottom: 10px;
+}
+.part-1-description{
+    margin-top: 50px;
+    color: rgba(39, 39, 39, 0.60);
+}
+#btn-3{
+    margin-top: 30px;
+}
+
+.part-2{
+    flex-shrink: 0px;
+    padding: 100px 30px 100px 150px;
+}
+
+.section-6{
+    display: grid;
+    justify-content: space-around;
+    gap: 20px;
+    width: 80%;
+    margin: 50px auto;
+    grid-template-columns: repeat(4, 1fr);
+}
 
 
+.section-6 img{
+    width: 100%;
+}
 
+
+.section-7{
+    text-align: center;
+    justify-content: space-around;
+}
