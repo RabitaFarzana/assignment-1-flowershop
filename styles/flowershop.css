@@ -221,5 +221,38 @@ nav a{
 
 .section-7{
     text-align: center;
-    justify-content: space-around;
+    justify-content:space-evenly;
+    background-image: url(../Flower_Asset/Rectangle\ 9.png);
+    background-repeat: no-repeat;
+    margin: auto;
+    width: 80%;
+    padding: 10px;
+}
+
+#btn-4{
+    border: 0;
+    font-size: 15px;
+    height: 15px 5px;
+  
+}
+#sec-7-title{
+    margin-bottom: 0px auto;
+}
+#sec-7-email{
+    box-sizing: border-box;
+    width: 30%;
+    height: 25px ;
+    float: center;
+ }
+.section-8{
+    margin-top: 40px;
+    background-color: #181818;
+    color: white;
+    padding: 70px 450px 100px 448px;
+    text-align: center;
+}
+
+
+.text-color{
+    color: grey;
 }
